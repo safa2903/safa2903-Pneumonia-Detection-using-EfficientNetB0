@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load Model
-model = tf.keras.models.load_model("Pneumonia_Detection_EfficientNetB0.keras")
+model = tf.keras.models.load_model("pneumonia_detection_efficientnetb0.keras")
 
 CLASS_NAMES = ["NORMAL", "PNEUMONIA"]
 
